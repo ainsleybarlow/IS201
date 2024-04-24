@@ -1,0 +1,106 @@
+body{
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.common{
+    /* background-color: whitesmoke; */
+    border: 2px solid whitesmoke;
+    position: absolute;
+}
+
+.header{
+    top: 15px;
+    left: 5px;
+    right: 5px;
+    height: 80px;
+    border-bottom: solid 2px whitesmoke(71, 71, 71);
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* .leftmenu {
+    top: 114px;
+    left: 5px;
+    width:100px;
+    bottom: 39px;
+    border-right: solid 2px rgb(71, 71, 71);
+} */
+
+.mainbody{
+    top: 114px;
+    left: 5px;
+    right: 134px;
+    bottom: 39px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 130px;
+    bottom: 39px;
+    padding-left: 5px;
+    border-left: solid 2px rgb(71, 71, 71);
+}
+
+.footer{
+    background-color: rgb(71,71,71);
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    position: fixed;
+}
+
+img{
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.tableauPlaceholder{
+    top: 810px;
+}
+
+iframe{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(147, 201, 248);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+ol{
+    font-weight: bold;
+}
+ul{
+    font-weight: normal;
+}
+
+.youtubeLink{
+    color: black;
+    text-decoration: underline solid black;
+}
+.youtubeLink:hover{
+    color: rgb(147, 201, 248);
+    text-decoration: underline solid rgb(147, 201, 248);
+}
